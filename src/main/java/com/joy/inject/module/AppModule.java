@@ -18,7 +18,6 @@ public class AppModule {
     private final Application mApplication;
 
     public AppModule(Application application) {
-
         mApplication = application;
     }
 
@@ -28,7 +27,6 @@ public class AppModule {
     @Provides
     @Singleton
     Application provideApplication() {
-
         return mApplication;
     }
 }

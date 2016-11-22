@@ -16,7 +16,6 @@ public class ActivityModule {
     private final Activity mActivity;
 
     public ActivityModule(Activity activity) {
-
         mActivity = activity;
     }
 
@@ -26,7 +25,6 @@ public class ActivityModule {
     @Provides
     @ActivityScope
     protected Activity provideActivity() {
-
         return mActivity;
     }
 }
