@@ -1,6 +1,6 @@
 # core-inject
 
-Dagger2依赖注入，应用在MVP架构中用来解耦。
+**Dagger2依赖注入，应用在MVP架构中用来解耦。**
 
 ### 外部引用
 
